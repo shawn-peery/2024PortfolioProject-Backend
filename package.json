@@ -4,7 +4,7 @@
   "description": "A Backend Portfolio Project written with NodeJS and Express. Going to be show-casing my test-driven-develompent skills",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node dist/server.js",
+    "start": "tsc && node dist/index.js",
     "build": "tsc",
     "test": "vitest"
   },
