@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { app, } from './server';
+import { app, port } from './server';
 
 import express from 'express'
 
@@ -12,5 +12,8 @@ describe('Server Tests', () => {
 		console.log(`Express()'s constructor: ${express.constructor}`)
 		expect(app.constructor).toBe((express()).constructor);
 	});
+	it("should have the server listening on port 5000", () => {
+		expect(port).toBe(5000);
+	})
 })
 

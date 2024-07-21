@@ -2,4 +2,10 @@ import express from 'express';
 
 const app = express();
 
-export { app };
+const port = 5000;
+
+app.listen(port, () => {
+})
+
+
+export { app, port };
