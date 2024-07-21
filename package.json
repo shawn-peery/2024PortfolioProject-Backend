@@ -1,0 +1,32 @@
+{
+  "name": "backend-portfolio-project",
+  "version": "1.0.0",
+  "description": "A Backend Portfolio Project written with NodeJS and Express. Going to be show-casing my test-driven-develompent skills",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/server.js",
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawn-peery/2024PortfolioProject-Backend.git"
+  },
+  "author": "Shawn Peery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawn-peery/2024PortfolioProject-Backend/issues"
+  },
+  "homepage": "https://github.com/shawn-peery/2024PortfolioProject-Backend#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.11",
+    "@types/supertest": "^6.0.2",
+    "supertest": "^7.0.0",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
